@@ -1,0 +1,168 @@
+.form_main_div{
+    background-image: url("bgs.jpg");
+    background-size: cover;
+    position: absolute;
+     height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.loginform{
+    width: 400px;
+    border: 2px solid rgb(245, 131, 65);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   background-color: white;
+   
+}
+.nameLabel{
+    margin-top: 20px;
+}
+
+.loginformtext
+{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.divfor-login{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbtn{
+    background-color: rgb(245, 131, 65);
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.loginbtn:hover{
+    background-color: rgb(245, 131, 65);
+    border: 1px solid black;
+  color: white;
+  border: none;
+  padding: 5px;
+}
+.loginbtns{
+    padding: 5px;
+    background-color: rgb(245, 131, 65);
+    color: white;
+    border: none;
+
+}
+
+p{
+    color: black;
+    margin-bottom: -10px;
+}
+ /* this code is for list of th flight */
+
+.list_item_div{
+    border-radius: 25px;
+    border: 1px solid black;
+    width: 95%;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+}
+.content-div{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.inner_cont_div_fromto{
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    justify-content: space-between;
+}
+.inner_cont_div_down{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.flight_details{
+    color: rgb(17, 91, 187)!important;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-style: italic;
+}
+.button-div{
+    width: 10%;
+    text-align: center;
+    align-content: center;
+}
+.flightlogo{
+    width: 20;
+    height: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top:10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+button{
+    background-color: rgb(245, 131, 65);
+    border-radius: 20px;
+    width: 100px;
+    border: none;
+    height: 40px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+button:hover{
+   border: none;
+}
+.from_flt{
+    font-size: 20px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    text-decoration: none;
+}
+
+.name-no{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.maindivbooking{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: space-between;
+    height: auto;
+}
+input{
+    width: 100%;
+    padding: 5px; 
+}
+
+.roundbtndiv{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}

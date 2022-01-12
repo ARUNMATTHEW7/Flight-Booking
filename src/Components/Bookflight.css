@@ -1,0 +1,147 @@
+.outer-div{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.main-divs{
+    width: 30%;
+    padding-right: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+ 
+
+  .fromTo{
+      margin-top: 20px;
+      width: 45%;
+      justify-content: space-between;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+  }
+  p{
+      margin-top: 10px;
+      text-decoration: solid;
+      padding: 5px;
+  }
+  h2{
+      margin-top: 10px;
+      padding: 5px;
+  }
+  h3{
+      padding: 5px;
+  }
+  img{
+      width: 40px;
+      height: 18px;
+  }
+.headings{
+    border: 1px solid rgb(245, 131, 65);
+    margin-top: 20px;
+}
+
+.headingss{
+    border: 1px solid rgb(245, 131, 65);
+    margin-top: 30px;
+
+}
+.btndiv{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+Link{
+   
+    width: 100%;
+    align-items: center;
+    background-color:rgb(151, 128, 114); 
+    color: white!important;
+    height: 30px;
+    outline: none;
+}
+Link:hover{
+   
+    width: 100%;
+    align-items: center;
+    background-color:rgb(151, 128, 114); 
+    color: white!important;
+    height: 30px;
+}
+.payBtn{
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    background-color:rgb(245, 131, 65); 
+    color: white!important;
+    outline: none;
+}
+.payBtn:hover{
+    margin-top: 20px;
+    width: 100%;
+    align-items: center;
+    background-color:rgb(245, 131, 65); 
+    color: white!important;
+}
+
+.Datetime{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* 
+bookedticket sytle starts here */
+
+.main-divss{
+    width: 60%;
+    padding-right: 20px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .CutomerDetails{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 60%;
+  }
+
+  .bottumd-div{
+      margin-top: 25px;
+      display: flex;
+      flex-direction: row-reverse;
+      width: 35%;
+      justify-content: space-between;
+      padding: 10px;
+  }
+
+  .headerClass{ width: 100%;
+ padding: 20px;
+    height: 90px;
+    background-color: rgb(245, 131, 65);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #ggg{
+      height: 50px;
+      width: 50px;
+  }
+  text{
+      margin: 20px;
+  }
+ 

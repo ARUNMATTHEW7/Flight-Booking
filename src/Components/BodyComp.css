@@ -1,0 +1,139 @@
+.main_div_full{
+    display: flex;
+    flex-direction: row;
+}
+.flights{
+    width: 100%;
+
+}
+.bodyComp{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 100%;
+    height: fit-content;
+    margin: 20px;
+    padding: 20px;
+}
+.from-to{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    padding:10px;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;    
+    justify-content: space-between;
+}
+
+#arrows{
+    height: 25px;
+    width: 60px;  
+}
+h2{
+    text-align: center;
+    text-shadow: aqua;
+    font-size: 16px;
+    font-style: italic;
+}
+/* 
+radio button csss starts here */
+.DateSelection{
+    margin-right: 20px !important;
+    margin: 10px;
+
+}
+
+.TripRadio{
+    margin: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+}
+
+.radio-btn{
+   display: inline-block;
+   font-style: oblique;
+   padding: 10px;
+  
+}
+.date-selecter{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    
+}
+.departdate{
+   margin-right: 20px;
+}
+
+.returndate{
+   margin-left: 20px;
+
+}
+.departonly{
+    margin-top: 20px;
+}
+
+.p-tag{
+    margin-bottom: 20px;
+}
+/* 
+code for down div for search button only */
+.searchbtn_div{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.searchbtn{
+    margin-top: 50px;
+    width: 40%;
+    align-content: center;
+    margin-bottom: 50px;
+    border: none;
+    outline:none;
+}
+
+.all-flights{
+    margin: 20px;
+    
+}
+
+
+.serch_div{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnDiv{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#searcBtn{
+    margin: 30px;
+    width: 40%;
+    align-items: center;
+    outline: none;
+}
+/* 
+///no flight msg test decoration */
+
+.no_flight_msg{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    color: red;
+    text-decoration: solid;
+}

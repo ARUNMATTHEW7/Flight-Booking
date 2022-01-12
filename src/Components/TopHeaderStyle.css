@@ -1,0 +1,102 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+.main-div{
+
+  width: 100%;
+  padding-right: 20px;
+  height: 100px;
+  background-color: rgb(245, 131, 65);
+  display: flex;
+  flex-direction: row;
+}
+nav{
+
+	flex:1;
+  text-align: right;
+  color: #000;
+}
+nav ul{
+	display: inline-block;
+	list-style: none;
+
+}
+nav ul li{
+  margin-top: 30px;
+	display: inline-block;
+	margin-right: 40px;
+}
+a{
+	text-decoration: none;
+  font-size: 20px;
+  color: black!important;
+}
+Link{
+	text-decoration: none;
+  font-size: 20px;
+  color: black!important;
+}
+nav ul li a:hover{
+	color: white!important;
+  cursor: pointer;
+  transform: scale(1.3); 
+}
+
+nav ul li Link:hover{
+	color: white!important;
+  cursor: pointer;
+  transform: scale(1.3); 
+
+}
+
+.logo-class{
+
+  border: 1px solid black;
+  border-radius: 40px;
+  text-align: center;
+ padding: 5px;
+ margin: 10px;
+}
+.logo-class:hover{
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 8px;
+}
+.logo{
+  height: 30px;
+  width: 50px;
+  
+}
+#logo_text{
+  color: #000;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: -5px;
+ 
+}
+/* 
+/// style for dropdown */
+
+.drop-class{
+  padding: 10px;
+  text-decoration: none;
+  width:250px;
+  font-size: 14px;
+  height: auto;
+  /* border: 2px solid  rgb(245, 131, 65);
+  border-radius: 10px; */
+ 
+}
+.drop-control{
+  margin-top: 10px;
+  text-decoration: none;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+
+}
